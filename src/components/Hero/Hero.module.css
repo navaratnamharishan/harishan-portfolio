@@ -50,10 +50,14 @@ box-shadow: 0 0 4px 0 rgba(0,0,0,25);
 
 }
 .heroImg{
-    width: 270px;
-   height: 200px;
+  position: relative;
+  display: flex;
+    width: 55%;
+   height: 180px;
     z-index: 1;
     border-radius:50% ;
+    background: linear-gradient(transparent,transparent,transparent,aqua);
+    transform: rotate(0deg);
     
     
     animation-name: floating;
