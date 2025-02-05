@@ -24,7 +24,7 @@ export const Footer = () => {
 
         <div className={styles.contact}>
         <a href='navaratnamharishan@gmail.com'> <img src={getImageUrl("gmail.png")} alt='email'   /></a>
-        <a href='0704605222'>  <img src={getImageUrl("outgoing-call.png")} alt='phone'/></a>
+        <a href="tel:+94704605222">  <img src={getImageUrl("outgoing-call.png")} alt='phone'/></a>
             
         <a href='https://www.linkedin.com/in/harishan-navarathnam-16a14b2a4'>  <img src={getImageUrl("linkedin.png")} alt='LinkedIn'/></a>
         <a href='https://github.com/navaratnamharishan'> <img src={getImageUrl("github.png")} alt='GitHum '/></a>
